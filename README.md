@@ -86,3 +86,5 @@ Continuous Learning: Embraced a growth mindset by seeking feedback, exploring ne
 
 These lessons have not only enhanced my technical skills but also fostered a deeper appreciation for the iterative nature of software development and the importance of continuous improvement.
 
+This is my First Dart Project that's why you may find some irregularities but with time i'll be familiar with this. 
+
