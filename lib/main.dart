@@ -3,11 +3,11 @@ import 'buttons.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 void main() {
-runApp(MyApp());
+runApp(Calculate());
 }
 // Entry point of the app, runs the MyApp widget (basic)
 
-class MyApp extends StatelessWidget {
+class Calculate extends StatelessWidget {
 @override
 Widget build(BuildContext context) {
 	return MaterialApp(
@@ -54,7 +54,7 @@ final List<String> buttons = [
 Widget build(BuildContext context) {
 	return Scaffold(
 	appBar: new AppBar(
-		title: new Text("Calculator"),
+		title: new Text("Calculator - By Raj"),
 	), //AppBar
 	backgroundColor: Colors.white38,
 	body: Column(
@@ -207,5 +207,8 @@ answer = eval.toString(); // Stores the evaluated expression result as a string 
 
 }
 }
+final String footerText = "Made by The_Raj";
+
+
 // Made by The_Raj with the help of groq,utube,online artricles
 //designing was tough since i'm not familiar with flutter till since 14 june 2024
